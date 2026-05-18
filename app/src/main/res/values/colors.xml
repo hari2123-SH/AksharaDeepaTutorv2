@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Brand Colors -->
+    <color name="primary">#1A237E</color>
+    <color name="primary_dark">#0D1457</color>
+    <color name="primary_light">#3949AB</color>
+    <color name="accent">#FF6F00</color>
+    <color name="accent_light">#FFB300</color>
+
+    <!-- Subject Colors -->
+    <color name="science_color">#00695C</color>
+    <color name="science_light">#E0F2F1</color>
+    <color name="math_color">#6A1B9A</color>
+    <color name="math_light">#F3E5F5</color>
+    <color name="social_color">#E65100</color>
+    <color name="social_light">#FBE9E7</color>
+
+    <!-- Status Colors -->
+    <color name="completed_color">#2E7D32</color>
+    <color name="in_progress_color">#F57F17</color>
+    <color name="not_started_color">#B0BEC5</color>
+    <color name="gap_area_color">#C62828</color>
+    <color name="strong_area_color">#1B5E20</color>
+
+    <!-- UI Colors -->
+    <color name="background">#F5F6FA</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_hint">#BDBDBD</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <!-- Quiz Colors -->
+    <color name="correct_answer">#1B5E20</color>
+    <color name="correct_answer_bg">#C8E6C9</color>
+    <color name="wrong_answer">#B71C1C</color>
+    <color name="wrong_answer_bg">#FFCDD2</color>
+    <color name="selected_answer">#E3F2FD</color>
+    <color name="selected_answer_border">#1565C0</color>
+
+    <!-- Progress Bar -->
+    <color name="progress_bar_bg">#E0E0E0</color>
+    <color name="progress_excellent">#1B5E20</color>
+    <color name="progress_good">#F57F17</color>
+    <color name="progress_low">#B71C1C</color>
+</resources>

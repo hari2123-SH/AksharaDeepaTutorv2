@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="@color/background">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="@color/primary" android:orientation="vertical"
+        android:padding="16dp" android:paddingTop="48dp" android:paddingBottom="16dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="🏆 Live Leaderboard" android:textColor="@color/white"
+            android:textSize="22sp" android:textStyle="bold"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Real-time rankings from Firebase • Updates live"
+            android:textColor="#B3FFFFFF" android:textSize="12sp" android:layout_marginTop="4dp"/>
+    </LinearLayout>
+
+    <!-- Top 3 podium -->
+    <androidx.cardview.widget.CardView android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:layout_margin="16dp"
+        app:cardCornerRadius="12dp" app:cardElevation="4dp" app:cardBackgroundColor="#FFF9C4">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:padding="16dp" android:gravity="center">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="🥇 Top scorers are updated live after every quiz you complete! Complete more quizzes to climb the ranks."
+                android:textSize="13sp" android:textColor="#5D4037" android:gravity="center"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <ProgressBar android:id="@+id/progress_leaderboard" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_gravity="center"
+        android:visibility="visible"/>
+
+    <TextView android:id="@+id/tv_leaderboard_empty" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="No scores yet!\nBe the first to complete a quiz! 🎯"
+        android:textSize="16sp" android:textColor="@color/text_secondary"
+        android:gravity="center" android:padding="32dp" android:visibility="gone"/>
+
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/rv_leaderboard"
+        android:layout_width="match_parent" android:layout_height="0dp"
+        android:layout_weight="1" android:padding="8dp" android:clipToPadding="false"/>
+</LinearLayout>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Akshara-Deepa</string>
+    <string name="app_tagline">Your SSLC Study Companion</string>
+    <string name="syllabus_tracker">Syllabus Tracker</string>
+    <string name="quiz_mode">Quiz Mode</string>
+    <string name="strength_map">Strength Map</string>
+    <string name="daily_goal">Daily Goal</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="next_question">Next</string>
+    <string name="submit_quiz">Submit Quiz</string>
+    <string name="review_answer">Review Answer</string>
+    <string name="chapter_mastery">Chapter Mastery</string>
+    <string name="mark_complete">Mark as Complete</string>
+    <string name="completed">Completed ✓</string>
+    <string name="score_label">Your Score</string>
+    <string name="time_left">Time Left</string>
+    <string name="daily_goal_msg">Complete at least 1 topic today! 📚</string>
+    <string name="gap_area_hint">Focus Area — needs more practice</string>
+    <string name="strong_area_hint">Strong Area — keep it up!</string>
+    <string name="subjects_science">Science</string>
+    <string name="subjects_math">Mathematics</string>
+    <string name="subjects_social">Social Studies</string>
+    <string name="question_of">Question %1$d of %2$d</string>
+    <string name="score_out_of">%1$d out of %2$d</string>
+    <string name="overall_progress">Overall Progress</string>
+    <string name="mission_map">Mission Map</string>
+    <string name="chapters_done">chapters done</string>
+    <string name="quiz_timer_seconds">30</string>
+</resources>
